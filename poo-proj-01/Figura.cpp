@@ -25,7 +25,7 @@ Figura::Figura(std::string nume, int nrPct, Punct2D* const puncte)
 {
 }
 
-Figura::Figura(std::string nume, int nrPct, ...)
+Figura::Figura(std::string nume, unsigned int nrPct, ...)
 	:
 	denumire(nume),
 	nrPuncte(nrPct)

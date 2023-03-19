@@ -16,7 +16,7 @@ public:
 	Figura();
 	Figura(std::string nume, int nrPct);
 	Figura(std::string nume, int nrPct, Punct2D* const puncte);
-	Figura(std::string nume, int nrPct, ...);
+	Figura(std::string nume, unsigned int nrPct, ...);
 
 	Figura& operator=(const Figura& other);
 	bool operator==(const Figura& other);
